@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Qj7uugX2PQE=",
+  "dgSpecHash": "KKnex7FaRQ4=",
   "success": true,
   "projectFilePath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
   "expectedPackageFiles": [
     "/Users/prestonmeekins/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/microsoft.data.sqlite/8.0.10/microsoft.data.sqlite.8.0.10.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/microsoft.data.sqlite.core/8.0.10/microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -28,15 +26,46 @@
     "/Users/prestonmeekins/.nuget/packages/system.data.sqlite.core/1.0.119/system.data.sqlite.core.1.0.119.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/system.data.sqlite.ef6/1.0.119/system.data.sqlite.ef6.1.0.119.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "/Users/prestonmeekins/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/microsoft.netcore.app.ref/8.0.24/microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.24/microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
-    "/Users/prestonmeekins/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.24/microsoft.netcore.app.host.osx-arm64.8.0.24.nupkg.sha512"
+    "/Users/prestonmeekins/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.Data.SqlClient' 4.8.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
+      "projectPath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Data.SqlClient' 4.8.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "projectPath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'System.Drawing.Common' 4.7.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "projectPath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/prestonmeekins/Documents/Semesters/Fall 2024 Classes/CPSC 3720/3720Project/TigerTix/Program.cs/Program.cs.csproj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
