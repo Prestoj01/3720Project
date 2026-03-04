@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TigerTix", "TigerTix", "{8B02A42F-0CFD-1EE9-3F22-70B0A8868E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program.cs", "TigerTix\Program.cs\Program.cs.csproj", "{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F214EE95-3BB4-A4E7-56A0-4FC8B4E3C740} = {8B02A42F-0CFD-1EE9-3F22-70B0A8868E0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B63B4C3C-3227-4FB3-96E3-AADA2869218B}
+	EndGlobalSection
+EndGlobal
